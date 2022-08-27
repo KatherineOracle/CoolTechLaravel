@@ -1,0 +1,170 @@
+body {
+    font-family: Roboto, sans;
+    font-weight: 300;
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+main.container {
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 1em;
+    padding: 0.5rem;
+    border-bottom: 2px dashed #000000;
+}
+
+a,
+.nav-link {
+    color: #000000;
+    text-decoration: underline;
+}
+a:hover,
+.nav-link:hover {
+    color: #999999;
+    text-decoration-style: dotted;
+}
+
+.btn-primary {
+    background-color: #00c4ef;
+    border-color: #00c4ef;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #376c93;
+    border-color: #376c93;
+}
+
+/*FORMS*/
+.form-group {
+    margin-bottom: 0.66rem;
+}
+label {
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.3em 0;
+}
+.form-switch {
+    margin-left: 0rem;
+    margin-right: 1rem;
+    margin-top: 0.66em;
+}
+
+/*LOGOS*/
+.navbar-brand svg {
+    width: 170px;
+    height: auto;
+}
+footer svg {
+    width: 170px;
+    height: auto;
+}
+
+/* Main Navbar */
+header .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+header .navbar .nav-link:hover {
+    background: #cccccc;
+}
+
+/* Navbars */
+.category-navbar {
+    color: #ffffff;
+}
+.category-navbar ul {
+    width: 100%;
+}
+.category-navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    padding-left: 1.5em;
+    border-bottom: 1px dotted #ffffff;
+}
+.category-navbar .navbar-nav .nav-link.active {
+    border-left: 10px solid #ffffff;
+    padding-left: 1em;
+}
+
+/*Articles*/
+.feature-story {
+    position: relative;
+}
+.feature-story figure {
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+}
+.feature-story figure img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: none;
+}
+.feature-story figure + div {
+    position: absolute;
+    bottom: 0;
+    max-width: 700px;
+    padding: 2em;
+    background: #ffffff;
+}
+
+.normal-stories figure {
+    position: relative;
+    height: 33vmin;
+    background-color: #000000;
+    overflow: hidden;
+}
+.col {
+    flex-basis: auto;
+}
+
+.normal-stories figure img {
+    position: absolute;
+    max-width: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.story-meta {
+    display: flex;
+    flex-flow: row wrap;
+}
+.story-meta dt {
+    display: inline-block;
+    width: 130px;
+}
+.story-meta dd {
+    width: calc(100% - 130px);
+}
+
+.story-main {
+    padding: 0 2em 0 2em;
+}
+
+.badge.badge-info {
+    background: #999999;
+}
+
+.badge.badge-info:hover {
+    color: #ebebeb;
+}
+
+.modal.cookies .modal-dialog {
+    width: 90%;
+    position: fixed;
+    bottom: 1rem;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
